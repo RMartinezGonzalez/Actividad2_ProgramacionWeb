@@ -9,25 +9,39 @@
 </head>
 <body>
     <header>
-        <h1>Trabajos Actividad 1</h1>
-        <p>Martinez Gonzalez Ricardo</p>
+        <h1 class="title">Registro Datos Genéricos</h1>
+        <p class="autor">Martinez Gonzalez Ricardo</p>
     </header>
     <main>
-            <a href="./ejercicio1.html" target="_blank" class="link"> Ejercicio 1</a>
-            <a href="./ejercicio2.html" target="_blank" class="link"> Ejercicio 2</a>
-            <a href="./ejercicio3.html" target="_blank" class="link"> Ejercicio 3</a>
-            <a href="./ejercicio4.html" target="_blank" class="link"> Ejercicio 4</a>
-            <a href="./ejercicio5.html" target="_blank" class="link"> Ejercicio 5</a>
-            <a href="./ejercicio6.html" target="_blank" class="link"> Ejercicio 6</a>
-            <a href="./ejercicio7.html" target="_blank" class="link"> Ejercicio 7</a>
-            <a href="./ejercicio8.html" target="_blank" class="link"> Ejercicio 8</a>
-            <a href="./ejercicio9.html" target="_blank" class="link"> Ejercicio 9</a>
-            <a href="./ejercicio10.html" target="_blank" class="link">Ejercicio 10</a>
-            <a href="./ejercicio11.html" target="_blank" class="link">Ejercicio 11</a>
-            <a href="./ejercicio12.html" target="_blank" class="link">Ejercicio 12</a>
-            <a href="./ejercicio13.html" target="_blank" class="link">Ejercicio 13</a>
-            <a href="./ejercicio14.html" target="_blank" class="link">Ejercicio 14</a>
-            <a href="./ejercicio15.html" target="_blank" class="link doble" >Ejercicio 15</a>
+        <form action="" class="contenido">
+            <div class="form-item">
+                <label for="">Nombre</label>
+                <input type="text" name="nombreInput" id="nombreInput" placeholder="Nombre:" required>
+            </div>
+            <div class="form-item">
+                <label for="">Apellido Marterno</label>
+                <input type="text" name="apellidoMInput" id="apellidoMInput" placeholder="Apellido Materno:" required>
+            </div>
+            <div class="form-item">
+                <label for="">Apellido Paterno</label>
+                <input type="text" name="apellidoPInput" id="apellidoPInput" placeholder="Apellido Paterno:" required>
+            </div>
+            <div class="form-item">
+                <label for="">Fecha de Nacimiento</label>
+                <input type="date" name="fechaInput" id="fechaInput" placeholder="Fecha de nacimiento:" required>
+            </div>
+            <div class="form-item">
+                <label for="">Correo electrónico</label>
+                <input type="text" name="correoInput" id="correoInput" placeholder="Correo:" required>
+            </div>
+            <div class="form-item">
+                <label for="">Contraseña</label>
+                <input type="password" name="contraInput" id="contraInput" placeholder="Contraseña:" required>
+            </div>
+            <div class="form-item">
+                <button class="registrar" type="button">Registrase</button>
+            </div>
+        </form>
     </main>
 </body>
 </html>
