@@ -20,7 +20,7 @@ function validaCorreo(correo) {
  * @returns {boolean} Retorna `true` en caso de que tenga solamente letras y `false` en caso de no tener solamente letras
  */
 function soloLetras(texto) {
-   const letrasValidas = /[a-zA-ZáéíóúñÁÉÍÓÚÑ]/;
+   const letrasValidas = /^[a-zA-ZáéíóúñÁÉÍÓÚÑ]+$/;
    let valido = letrasValidas.test(texto);
 
    return valido;

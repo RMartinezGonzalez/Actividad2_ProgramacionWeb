@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2 - Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- CDN de la utileria -->
+    <!-- <script src="./js/utileria.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/RMartinezGonzalez/Componentes_ProgramacionWeb@v1.0.0/utileria.js"></script>
+    
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div class="modal hidden">
+        <p class="modal-texto"></p>
+    </div>
+    <header>
+        <h1 class="title">Login - Inicie Sesión</h1>
+        <p class="autor">Martinez Gonzalez Ricardo</p>
+    </header>
+    <main>
+        <form action="" class="contenido">            
+            <div class="form-item">
+                <label for="">Correo electrónico</label>
+                <input type="text" name="correoInput" id="correoInput" placeholder="Correo:" required>
+            </div>
+            <div class="form-item">
+                <label for="">Contraseña</label>
+                <input type="password" name="contraInput" id="contraInput" placeholder="Contraseña:" required>
+            </div>
+            <div class="form-item form-botones">
+                <button class="registrar" type="button" onclick="validarLogin()">Iniciar Sesión</button>
+                <a href="./index.html" class="registrar" type="button">Ir al registro</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

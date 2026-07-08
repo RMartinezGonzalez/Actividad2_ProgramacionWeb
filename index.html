@@ -6,8 +6,12 @@
     <title>Actividad 2 - Utileria JS</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/utileria.js"></script>
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
+    <div class="modal hidden">
+        <p class="modal-texto"></p>
+    </div>
     <header>
         <h1 class="title">Registro Datos Genéricos</h1>
         <p class="autor">Martinez Gonzalez Ricardo</p>
@@ -38,8 +42,9 @@
                 <label for="">Contraseña</label>
                 <input type="password" name="contraInput" id="contraInput" placeholder="Contraseña:" required>
             </div>
-            <div class="form-item">
-                <button class="registrar" type="button">Registrase</button>
+            <div class="form-item form-botones">
+                <button class="registrar" type="button" onclick="validar()">Registrase</button>
+                <a href="./login.html" class="registrar" type="button">Ir al login</a>
             </div>
         </form>
     </main>
